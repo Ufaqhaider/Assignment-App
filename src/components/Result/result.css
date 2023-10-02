@@ -1,0 +1,19 @@
+.result-container {
+  background: rgb(20, 20, 20);
+  height: 120px;
+  color: white;
+  border-radius: 7px;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.result-container .result-card img {
+  height: -webkit-fill-available;
+  margin: 10px;
+}
+
+.result-container::-webkit-scrollbar-thumb {
+  background-color: #8e8e8e;
+  border-radius: 10px;
+}
